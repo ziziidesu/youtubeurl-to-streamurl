@@ -1,1 +1,1 @@
-<h1>これはInvideous APIを利用したストリームurl変換サイトです。</h1>
+<p>これはInvideous APIを利用したストリームurl変換サイトです。<p>
