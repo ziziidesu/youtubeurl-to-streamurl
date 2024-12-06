@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: my-invidious-tool
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    region: singapore # シンガポールのリージョンを指定
+    envVars:
+      NODE_ENV: production
+    autoDeploy: true
+    branch: main
+    healthCheckPath: /
+    disk:
+      name: persistent-data
+      sizeGB: 1
