@@ -5,13 +5,10 @@ services:
     plan: free
     buildCommand: npm install
     startCommand: npm start
-    region: singapore # シンガポールのリージョンを指定
+    region: singapore
     envVars:
       - key: NODE_ENV
         value: production
     autoDeploy: true
     branch: main
     healthCheckPath: /
-    disk:
-      name: persistent-data
-      sizeGB: 1
