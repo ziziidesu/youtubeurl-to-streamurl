@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: my-invidious-tool
+    name: youtubeurl-to-streamurl
     env: node
     plan: free
     buildCommand: npm install
