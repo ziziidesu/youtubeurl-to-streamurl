@@ -6,7 +6,7 @@ services:
     buildCommand: npm install
     startCommand: npm start
     region: singapore
-    rootDir: ./server  # serverディレクトリを指定
+    rootDir: server
     envVars:
       - key: NODE_ENV
         value: production
