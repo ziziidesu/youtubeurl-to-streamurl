@@ -6,7 +6,7 @@ services:
     buildCommand: npm install
     startCommand: npm start
     region: singapore
-    rootDir: my-invidious-tool  # 修正
+    rootDir: src  # 修正
     envVars:
       - key: NODE_ENV
         value: production
