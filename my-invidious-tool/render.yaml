@@ -5,7 +5,7 @@ services:
     plan: free
     buildCommand: npm install
     startCommand: node my-invidious-tool/src/index.js # 正しいパスを指定
-    rootDir: my-invidious-tool      # プロジェクトのルートディレクトリ
+    rootDir: ./my-invidious-tool      # プロジェクトのルートディレクトリ
     region: singapore
     envVars:
       - key: NODE_ENV
