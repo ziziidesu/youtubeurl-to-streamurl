@@ -4,7 +4,7 @@ services:
     env: node
     plan: free
     buildCommand: npm install
-    startCommand: node src/index.js # 正しいパスを指定
+    startCommand: node youtubeurl-to-streamurl/src/index.js # 正しいパスを指定
     rootDir: my-invidious-tool      # プロジェクトのルートディレクトリ
     region: singapore
     envVars:
