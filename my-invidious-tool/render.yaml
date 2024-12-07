@@ -5,8 +5,8 @@ services:
     plan: free
     buildCommand: npm install
     startCommand: npm start
+    rootDir: my-invidious-tool # プロジェクトフォルダを指定
     region: singapore
-    rootDir: my-invidious-tool  # 修正
     envVars:
       - key: NODE_ENV
         value: production
